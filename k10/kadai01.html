@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>課題1</title>
+    
+</head>
+<body>
+    
+    <img src="img/ooyama.jpg" alt="大山" title="大山の画像">
+    <hr>
+
+    <h1>大山アンケート</h1>
+
+    <form action="#" method="post">
+        <div>
+            <p>
+                氏名<br>
+                <input type="text" name="shimei">
+            </p>
+        </div>
+        <div>
+            <p>
+                性別：
+                <input type="radio" name="seibetu" value="1">男性
+                <input type="radio" name="seibetu" value="2">女性
+                <input type="radio" name="seibetu" value="3">不明
+            </p>
+        </div>
+        <div>
+            <p>
+                年齢
+                <select name="age">
+                    <option value="9yermin">9歳以下</option>
+                    <option value="10yer">10代</option>
+                    <option value="20yer">20代</option>
+                    <option value="30yer">30代</option>
+                    <option value="40yer">40代</option>
+                    <option value="50yer">50代</option>
+                    <option value="60yermax">60歳以上</option>
+                </select>
+            </p>
+        </div>
+
+        <div>
+          <p>
+            希望コース(複数選択可)<br>
+            <input type="checkbox" name="course" value="1">コース１
+            <input type="checkbox" name="course" value="2">コース2
+            <input type="checkbox" name="course" value="3">コース3
+            <input type="checkbox" name="course" value="4">コース4
+          </p>
+        </div>
+
+        <div>
+            <p>
+                ご意見記入<br>
+                <textarea name="opinion" rows="15" cols="55"></textarea>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <input type="submit" name="送信">
+                <input type="reset" name="リセット">
+            </p>
+        </div>
+
+    </form>
+    <hr>
+
+    <h1>アンケート記入のお願い</h1>
+  
+    ・すべての項目の記入を終えたら<br>
+    ・入力後・送信ボタンをクリックしてください<br>
+    ・取り消したい場合はリセットボタンをクリックしてください<br>
+</body>
+</html>
